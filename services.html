@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./nav.css" />
+    <style>
+      main {
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 4%;
+        align-items: center;
+      }
+      section {
+        display: grid;
+        width: 60vw;
+        height: 70vh;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 4%;
+      }
+      .box {
+        /* border: 1px solid rgb(255, 255, 255); */
+        background-color: rgba(89, 87, 87, 0.491);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8%;
+        text-align: center;
+      }
+      #line {
+        width: 8%;
+        height: 2px;
+        margin-top: 0.2%;
+        display: flex;
+        justify-content: center;
+      }
+      .end {
+        width: 40%;
+        height: 2px;
+        background-color: rgb(255, 255, 255);
+      }
+      #middle {
+        width: 60%;
+        height: 2px;
+        background-color: orange;
+      }
+      #heading {
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 3%;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+        color: orange;
+      }
+      #icon {
+        width: 20%;
+        height: 20%;
+        background-color: rgba(150, 163, 163, 0.261);
+        text-align: center;
+        border-radius: 50%;
+        /* margin: 20px; */
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="./home.html">home</a>
+        <a href="./about.html">about</a>
+        <a href="./services.html" id="present">services</a>
+        <a href="#">portfolio</a>
+        <a href="#">blog</a>
+        <a href="#">contact</a>
+      </nav>
+    </header>
+    <main>
+      <h1 id="heading">Services</h1>
+      <div id="line">
+        <div class="end"></div>
+        <div id="middle"></div>
+        <div class="end"></div>
+      </div>
+      <section>
+        <div class="box">
+          <div id="icon"></div>
+          <h3>Skecthes</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi hic
+            enim eveniet tenetur quis voluptatibus!
+          </p>
+        </div>
+        <div class="box">
+          <div id="icon"></div>
+          <h3>UI/UX Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi hic
+            enim eveniet tenetur quis voluptatibus!
+          </p>
+        </div>
+        <div class="box">
+          <div id="icon"></div>
+          <h3>Product Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi hic
+            enim eveniet tenetur quis voluptatibus!
+          </p>
+        </div>
+        <div class="box">
+          <div id="icon"></div>
+          <h3>App Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi hic
+            enim eveniet tenetur quis voluptatibus!
+          </p>
+        </div>
+        <div class="box">
+          <div id="icon"></div>
+          <h3>Motion Graphics</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi hic
+            enim eveniet tenetur quis voluptatibus!
+          </p>
+        </div>
+        <div class="box">
+          <div id="icon"></div>
+          <h3>Responsive Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi hic
+            enim eveniet tenetur quis voluptatibus!
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

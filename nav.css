@@ -1,0 +1,35 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  color: white;
+}
+body {
+  background-image: url(./mountain.jpg);
+  background-size: cover;
+  opacity: 3;
+}
+
+header {
+  height: 8vh;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+nav {
+  width: 50vw;
+
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: orange;
+}
+#present {
+  color: orange;
+}
